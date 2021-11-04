@@ -22,4 +22,10 @@ public class LevelManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         SceneManager.LoadScene("GameScene");
     }
+
+    public void LoadStartScene()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        SceneManager.LoadScene("StartScene");
+    }
 }
